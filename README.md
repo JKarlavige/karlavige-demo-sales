@@ -18,6 +18,10 @@ These custom templates must be mapped for local development in the .stencil file
 
 Both buttons utilize the Storefront API. The Add All To Cart button button adds all items on the page into the cart. The Remove All Items displays only if the quantity of the cart is greater than 0.
 
+### Custom JavaScript Module
+
+While it was possible to use existing classes, I decided to use the customClasses in the app.js to load a custom JavaScript module to handle the "Add All To Cart" And "Remove All Items" buttons on the Special Items category page 
+
 ```html
 {{inject "myProductName" product.title}}
 

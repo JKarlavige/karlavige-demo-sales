@@ -2,7 +2,6 @@
 // COMPONENTS
 // =============================================================================
 
-
 // Vendor components
 // -----------------------------------------------------------------------------
 
@@ -14,7 +13,6 @@
 
 // SweetAlert2 replacement for JavaScript alert/confirmations
 @import "vendor/sweetalert2/component";
-
 
 // Foundation components
 // -----------------------------------------------------------------------------
@@ -64,7 +62,6 @@
 // Lazy Load
 @import "foundation/lazyLoad/component";
 
-
 // Citadel components
 // -----------------------------------------------------------------------------
 
@@ -85,7 +82,6 @@
 
 // Action bar
 @import "citadel/actionBar/component";
-
 
 // Stencil components
 // -----------------------------------------------------------------------------
@@ -191,3 +187,6 @@
 
 // Categories
 @import "stencil/category/component";
+
+// All To Cart
+@import "stencil/allToCart/all-to-cart";

@@ -1,5 +1,5 @@
 // =============================================================================
-// SPECIAL ITEMS
+// ALL TO CART
 // =============================================================================
 
 #all-to-cart-buttons {
@@ -8,6 +8,17 @@
   justify-content: center;
   flex-flow: row wrap;
   a {
-    margin: 10px;
+    margin: 10px 0 10px 20px;
+  }
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    a {
+      margin: 10px 10px 5px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    a {
+      width: 100%;
+    }
   }
 }

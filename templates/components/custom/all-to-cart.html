@@ -1,9 +1,18 @@
 <div id="all-to-cart-buttons">
-  <a href="#" id="testBtn" class="button button--primary button--large"
+  <a
+    id="addAllToCartBtn"
+    class="button button--primary button--large"
+    data-add-all-items-success="{{lang 'cart.add_all_items_success'}}"
+    data-add-all-items-error="{{lang 'cart.add_all_items_error'}}"
     >Add All To Cart</a
   >
   {{#if cart.quantity}}
-  <a href="#" class="button button--secondary button--large"
+  <a
+    id="removeItemsBtn"
+    class="button button--secondary button--large"
+    data-confirm-delete="{{lang 'cart.confirm_delete_all'}}"
+    data-delete-all-success="{{lang 'cart.delete_all_success'}}"
+    data-delete-all-error="{{lang 'cart.delete_all_error'}}"
     >Remove All Items</a
   >
   {{/if}}

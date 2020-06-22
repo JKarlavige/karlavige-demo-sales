@@ -53,8 +53,8 @@ const pageClasses = {
 };
 
 const customClasses = {
-  "pages\\custom\\category\\special-items": () =>
-    import("./theme/special-items"),
+  "pages\\custom\\category\\special-items": () => import("./theme/special-items"), // Windows
+  "pages/custom/category/special-items": () => import("./theme/special-items"), // Mac/Linux
 };
 
 /**

@@ -47,3 +47,5 @@ An if statement checks for the correct category page, and if true it activates t
 ## Credits
 
 [Kyle O'Brien: Using BigCommerce Storefront APIs to Create Custom Product Display Page Experiences](https://medium.com/bigcommerce-developer-blog/using-bigcommerce-storefront-apis-to-create-custom-product-display-page-experiences-72ed3fbf7b23)
+
+[Create Custom BigCommerce Templates with React in Stencil](https://medium.com/bigcommerce-developer-blog/create-custom-bigcommerce-react-templates-with-stencil-7db18d118d13)
